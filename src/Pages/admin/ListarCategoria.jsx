@@ -9,6 +9,7 @@ function ListarCategoria() {
     async function listarCategoria() {
       const { data } = await categoriaService.listar();
       setCategorias(data);
+      console.log(data);
     }
     listarCategoria();
   }, []);

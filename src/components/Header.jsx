@@ -8,8 +8,14 @@ export default function Header() {
         <h1>Logo Empresa</h1>
       </NavLink>
       <nav>
-      <NavLink className="link-item" to="/admin/categoria">
+        <NavLink className="link-item" to="/admin/categoria">
           Categoria
+        </NavLink>
+        <NavLink className="link-item" to="/admin/producto">
+          Producto
+        </NavLink>
+        <NavLink className="link-item" to="/admin/cliente">
+          Cliente
         </NavLink>
         <NavLink className="link-item" to="/login">
           Login

@@ -13,7 +13,6 @@ const api = axios.create({
     Authorization: "Bearer " + token,
   },
   timeout: 30000,
-  signal: AbortSignal.timeout(2000),
 });
 
 // capturar e interceptar errores 401, 403

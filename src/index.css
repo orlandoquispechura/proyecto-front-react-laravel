@@ -3,3 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+body{
+    background-color: rgb(39, 30, 30);
+    color: #29c9fa;
+}
